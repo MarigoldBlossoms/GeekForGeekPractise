@@ -1,0 +1,1 @@
+add_library(greatestOf3 greatestOfThree.cpp)
