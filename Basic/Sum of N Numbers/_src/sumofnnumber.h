@@ -1,0 +1,1 @@
+int nSum(int n);
