@@ -1,0 +1,1 @@
+int LCM(int a, int b);

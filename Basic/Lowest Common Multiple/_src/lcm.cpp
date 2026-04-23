@@ -1,3 +1,5 @@
+#include "lcm.h"
+
 int LCM(int a, int b) {
     int num1, num2;
     if (a > b)
