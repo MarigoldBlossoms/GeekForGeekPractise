@@ -2,6 +2,7 @@
 #include <vector>
 #include <stack>
 #include <map>
+#include <set>
 
 using namespace std;
 
@@ -42,3 +43,16 @@ void add_value(map<int, int> &m, int x, int y);
 int find_value(map<int, int> &m, int x);
 /* Prints contents of the map ie keys and values*/
 void print_contents(map<int, int> &m);
+
+//Set
+/*inserts an element x to the set s */
+void insert(set<int> &s, int x);
+/*prints the contents of the set s */
+void print_contents(set<int> &s);
+/*erases an element x from the set s */
+void erase(set<int> &s, int x);
+/*returns 1 if the element x is    
+present in set s else returns -1 */
+int find(set<int> &s, int x);
+/*returns the size of the set s */
+int size(set<int> &s);
