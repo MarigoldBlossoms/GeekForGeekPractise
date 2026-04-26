@@ -80,3 +80,33 @@ int size_of_list(list<int> &A);
 /*inserts an element x at
 the front of the list A*/
 void add_from_front(list<int> &A, int x);
+
+
+//Deque
+/*prints space separated
+elements of the deque A*/
+void print(deque<int> &A);
+/*inserts an element x at
+the front of the deque A*/
+void add_in_front(deque<int> &A, int x);
+/*inserts an element x at
+the back of the deque A */
+void add_in_back(deque<int> &A, int x);
+/*remove element from
+back of the deque A*/
+void remove_from_back(deque<int> &A);
+/*remove element from
+front of the deque A*/
+void remove_from_front(deque<int> &A);
+/*sort the the deque A in ascending order*/
+void sort(deque<int> &A);
+/*reverses the deque A*/ 
+void reverse(deque<int> &A);
+/*returns the size of the deque  A */
+int size(deque<int> &A);
+/* returns element at front
+of the deque*/
+int element_at_front(deque<int> &A);
+/*returns element at end
+of the deque*/
+int element_at_back(deque<int> &A);
