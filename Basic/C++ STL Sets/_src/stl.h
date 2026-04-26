@@ -4,6 +4,7 @@
 #include <map>
 #include <set>
 #include <list>
+#include <unordered_map>
 
 using namespace std;
 
@@ -110,3 +111,14 @@ int element_at_front(deque<int> &A);
 /*returns element at end
 of the deque*/
 int element_at_back(deque<int> &A);
+
+
+//Unordered map
+/*Inserts an entry with key x and value y in map */
+void add_value(unordered_map<int, int> &m, int x, int y);
+/*Returns the value with key x from the map */
+int find_value(unordered_map<int, int> &m, int x);
+/*Returns the size of the map */
+int getSize(unordered_map<int, int> &m);    
+/*Removes the entry with key x from the map */
+void removeKey(unordered_map<int, int> &m, int x);
