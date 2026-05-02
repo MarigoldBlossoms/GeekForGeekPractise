@@ -1,0 +1,1 @@
+add_library(rightangledtriangle rightangledtriangle.cpp)
