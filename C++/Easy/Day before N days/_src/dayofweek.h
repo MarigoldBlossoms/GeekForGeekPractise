@@ -1,0 +1,1 @@
+int nthDay(int d, int n);
