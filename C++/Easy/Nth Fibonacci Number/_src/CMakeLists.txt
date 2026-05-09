@@ -1,0 +1,1 @@
+add_library(nFib fibonacci.cpp)
